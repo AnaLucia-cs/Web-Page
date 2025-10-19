@@ -35,7 +35,7 @@ body {
     margin: 10px 40px 0px 10px;
 }
 
-li{
+.op{
     color: black;
     list-style: none;
     text-decoration: none;
@@ -74,13 +74,16 @@ a{
 .main_img{
     width:100%;
     height:80vh;
-    background-color: rgb(141, 74, 74);
     margin: 0px;
     padding: 0px;
+    background-image:url('llaveros31v2.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container1{
-    padding: 20px;
+    padding: 50px 0px 50px 50px;
     display: flex;
     justify-content: space-between;
     background-color: blue;
@@ -89,7 +92,10 @@ a{
 .container1-img{
     width: 50%;
     height: 400px;
-    background-color: aqua;
+    background-image: url('pinkpony.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0px 50px 0 20px;
 }
 
@@ -98,6 +104,7 @@ a{
     flex-direction: column;
     background-color: bisque;
     width:50%;
+    margin: 0 20px 0 0;
 }
 
 .redes{
@@ -108,9 +115,95 @@ a{
     gap:20px;    
 }
 
+.boton{
+    background-color: rgb(159, 231, 237);
+    width:fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 30px 0 30px 0; 
+}
+
+.boton2{
+    background-color: rgb(149, 209, 255);
+    width:fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 15px 0 30px 0; 
+    padding: 10px 30px 10px 30px; 
+}
+
+.container2{
+    padding: 20px 15px 50px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 0, 144);
+    align-items: center;
+}
+
+.servicios{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px 0 50px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.op2{
+    width:30%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h4{
+    margin:0;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#sublimar{
+    background-image: url('llaveros31.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:300px;
+    border-radius: 15px;
+}
+
+#ilustrar{
+    background-image: url('camaronTerraza.JPG');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:300px;
+    border-radius: 15px;
+}
+
+#murales{
+    background-image: url('muralKoi.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:300px;
+    border-radius: 15px;
+}
 
 
-/* Responsive para pantallas menores a 768px (tablets y móviles) */
+
+
+
+/*
+ Responsive para pantallas menores a 768px (tablets y móviles) */
 @media (max-width: 768px) {
   .top {
     justify-content: center;
