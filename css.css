@@ -86,7 +86,8 @@ a{
     padding: 50px 0px 50px 50px;
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    /*background-color: blue;
+*/
 }
 
 .container1-img{
@@ -102,8 +103,8 @@ a{
 .d1{
     display: flex;
     flex-direction: column;
-    background-color: bisque;
-    width:50%;
+/*    background-color: bisque;
+  */  width:50%;
     margin: 0 20px 0 0;
 }
 
@@ -143,8 +144,8 @@ a{
 }
 
 .servicios{
-    background-color: aqua;
-    display: flex;
+    /*background-color: aqua;
+    */display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 50px 0 50px 0;
@@ -154,8 +155,8 @@ a{
 
 .op2{
     width:30%;
-    background-color: blueviolet;
-    display: flex;
+  /*  background-color: blueviolet;
+    */display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
