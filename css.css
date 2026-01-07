@@ -58,7 +58,7 @@ a{
 }
 
 .main{
-    background-color: rgb(255, 255, 255);
+ /*   background-color: rgb(255, 255, 255);*/
     width: 90%;
     height: fit-content;
     margin: 10px auto 30px auto; 
@@ -139,7 +139,7 @@ a{
     padding: 20px 15px 50px 15px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 0, 144);
+/*    background-color: rgb(255, 0, 144);*/
     align-items: center;
 }
 
